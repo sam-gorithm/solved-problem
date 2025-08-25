@@ -1,10 +1,10 @@
 package N2577;
 
-import java.io.*;   // java.io 패키지의 모든 클래스를 import (입출력을 위해 필요)
+import java.io.*;
 
 public class N2577_seoyeon {
 
-    public static void main(String[] args) throws IOException { // main 메소드, IOException 예외 처리
+    public static void main(String[] args) throws IOException {
         // TODO Auto-generated method stub
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,7 +18,7 @@ public class N2577_seoyeon {
         // 세 수의 곱을 계산하여 변수 a에 다시 저장함.
         a = a * b * c;
 
-        // 계산된 결과를 문자열로 변환합니다.
+        // 계산된 결과를 문자열로 변환함.
         String input = String.valueOf(a);
 
         // 0부터 9까지 숫자가 몇 번 쓰였는지 개수를 저장할 배열을 선언함.
