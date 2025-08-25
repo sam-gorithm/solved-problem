@@ -2,7 +2,7 @@ package N1475;
 
 import java.io.*;
 
-public class N1475_서연 {
+public class N1475_seoyeon {
 
     public static void main(String[] args) throws IOException {
 

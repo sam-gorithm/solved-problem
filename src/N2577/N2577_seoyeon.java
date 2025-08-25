@@ -2,7 +2,7 @@ package N2577;
 
 import java.io.*;   // java.io 패키지의 모든 클래스를 import (입출력을 위해 필요)
 
-public class N2577_서연 {
+public class N2577_seoyeon {
 
     public static void main(String[] args) throws IOException { // main 메소드, IOException 예외 처리
         // TODO Auto-generated method stub
