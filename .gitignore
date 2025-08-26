@@ -29,5 +29,5 @@ bin/
 .DS_Store
 
 # intelij
-sam-gorithm.iml
-.idea
+./sam-gorithm.iml
+./.idea/*
