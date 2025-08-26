@@ -1,7 +1,8 @@
+package N3273;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BAEK_3273_두수의합 {
+public class N3273_jinhyuk {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
