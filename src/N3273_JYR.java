@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q두수의합 {
+public class N3273_JYR {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
@@ -30,3 +30,4 @@ public class q두수의합 {
         System.out.println(cnt);
     }
 }
+
