@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class q방번호 {
+public class N1475_JYR {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String n = sc.next();
@@ -28,3 +28,4 @@ public class q방번호 {
         System.out.println(max);
     }
 }
+
