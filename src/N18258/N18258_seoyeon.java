@@ -3,7 +3,7 @@ package N18258;
 import java.io.*;
 import java.util.*;
 
-public class N18258 {
+public class N18258_seoyeon {
 
     public static void main(String[] args) throws IOException {
         // TODO Auto-generated method stub
