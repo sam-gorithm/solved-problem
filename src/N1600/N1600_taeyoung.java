@@ -33,6 +33,7 @@ public class N1600_taeyoung {
         Q.offer(new int[] { 0, 0, 0, 0 });
         checked[0][0][0] = true;
 
+
         while (!Q.isEmpty()) {
             int[] cur = Q.poll();
             int r = cur[0]; // 행
