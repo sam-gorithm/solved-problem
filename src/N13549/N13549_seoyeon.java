@@ -3,7 +3,7 @@ package N13549;
 import java.io.*;
 import java.util.*;
 
-public class N13549 {
+public class N13549_seoyeon {
 
     static int[] road;
     static int N, K;
