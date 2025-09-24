@@ -3,7 +3,7 @@ package N2146;
 import java.util.*;
 import java.io.*;
 
-public class N2146 {
+public class N2146_seoyeon {
 
     static class Info {
         int r, c;
