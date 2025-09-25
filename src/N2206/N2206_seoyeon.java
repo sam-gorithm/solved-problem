@@ -3,7 +3,7 @@ package N2206;
 import java.io.*;
 import java.util.*;
 
-public class N2206 {
+public class N2206_seoyeon {
 
     static class Info {
         int r, c, mapInfo;
