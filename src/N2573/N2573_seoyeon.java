@@ -3,7 +3,7 @@ package N2573;
 import java.io.*;
 import java.util.*;
 
-public class N2573 {
+public class N2573_seoyeon {
 
     static class Pos {
         int r, c;
