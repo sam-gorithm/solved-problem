@@ -38,6 +38,7 @@ public class N11559_seoyeon {
 
             visited = new boolean[N][M];
 
+            // 이번 턴에 터져야할 모든 뿌요 좌표 저장
             List<int[]> allPuyosToPop = new ArrayList<>();
 
             for (int i = 0; i < N; i++) {
@@ -45,6 +46,7 @@ public class N11559_seoyeon {
                     // 방문하지 않았고 빈 공간이 아닌 경우 bfs 탐색
                     if (!visited[i][j] && game[i][j] != '.') {
 
+                        // 이전 정보 비움
                         remove.clear();
 
                         visited[i][j] = true;
@@ -52,10 +54,10 @@ public class N11559_seoyeon {
                         queue.add(new int[] {i, j});
                         bfs(i, j);
 
-                        // [문제점 4] if (remove.size() >= 4) 검사가 여기서 (j 루프 안에서) 이루어져야 합니다.
+
                         if (remove.size() >= 4) {
                             isFlag = true;
-
+                            // 현재 턴의 모든 좌표 추가
                             allPuyosToPop.addAll(remove);
                         }
                     }
@@ -63,13 +65,14 @@ public class N11559_seoyeon {
 
 
             }
-
+            // 터질 그룹이 없으면 빠져나옴
             if (!isFlag) {
                 break;
             }
 
             ans++;
 
+            // 빈칸으로 만들기
             for (int[] pos : allPuyosToPop) {
                 game[pos[0]][pos[1]] = '.';
             }
