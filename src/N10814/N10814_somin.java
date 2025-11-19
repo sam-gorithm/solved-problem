@@ -12,8 +12,8 @@ public class N10814_somin {
 		
  
 		for(int i = 0; i < N; i++) {
-			arr[i][0] = in.next();	//나이
-			arr[i][1] = in.next();	//이름
+			arr[i][0] = in.next();	// 나이
+			arr[i][1] = in.next();	// 이름
 		}
  
 		
